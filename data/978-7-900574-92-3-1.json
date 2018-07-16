@@ -1,0 +1,373 @@
+{
+  "id": 130,
+  "name": "医学英语(词汇)",
+  "cover": "https://imed3.imed.org.cn/mvw_imed_book/74bf4238acaef95d/fc442b02fad726d0",
+  "bookIndex": "52v1.0.0",
+  "chapters": [
+    {
+      "id": 1769,
+      "sections": [
+        {
+          "id": 22760,
+          "name": "封面",
+          "url": "52v1.0.0/52_0f/52_f_01/52_f_01.html"
+        },
+        {
+          "id": 22761,
+          "name": "扉页",
+          "url": "52v1.0.0/52_0f/52_f_02/52_f_02.html"
+        },
+        {
+          "id": 22762,
+          "name": "版权页",
+          "url": "52v1.0.0/52_0f/52_f_03/52_f_03.html"
+        },
+        {
+          "id": 22763,
+          "name": "教材总目录",
+          "url": "52v1.0.0/52_0f/52_f_05/52_f_05.html"
+        },
+        {
+          "id": 22764,
+          "name": "顾问委员会",
+          "url": "52v1.0.0/52_0f/52_f_06/52_f_06.html"
+        },
+        {
+          "id": 22765,
+          "name": "编写委员会",
+          "url": "52v1.0.0/52_0f/52_f_07/52_f_07.html"
+        },
+        {
+          "id": 22766,
+          "name": "委员院校单位",
+          "url": "52v1.0.0/52_0f/52_f_08/52_f_08.html"
+        },
+        {
+          "id": 22767,
+          "name": "总序-1",
+          "url": "52v1.0.0/52_0f/52_f_09/52_f_09.html"
+        },
+        {
+          "id": 22768,
+          "name": "总序-2",
+          "url": "52v1.0.0/52_0f/52_f_10/52_f_10.html"
+        },
+        {
+          "id": 22770,
+          "name": "《医学英语-阅读》编写和使用说明",
+          "url": "52v1.0.0/52_0f/52_f_13/52_f_13.html"
+        },
+        {
+          "id": 22769,
+          "name": "前    言",
+          "url": "52v1.0.0/52_0f/52_f_14/52_f_14.html"
+        }
+      ],
+      "name": "封面",
+      "icon": "https://imed3.imed.org.cn/mvw_imed_book/74bf4238acaef95d/54bc7739843f55bc",
+      "show": false
+    },
+    {
+      "id": 1760,
+      "sections": [
+        {
+          "id": 22721,
+          "sectionId": "1",
+          "name": "Chapter 1 Introduction to Medical Terminology",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "1",
+      "name": "Chapter 1 Introduction to Medical Terminology",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1761,
+      "sections": [
+        {
+          "id": 22722,
+          "sectionId": "2",
+          "name": "Chapter 2 Suffixes",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "2",
+      "name": "Chapter 2 Suffixes",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1762,
+      "sections": [
+        {
+          "id": 22723,
+          "sectionId": "3",
+          "name": "Chapter 3 Prefixes",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "3",
+      "name": "Chapter 3 Prefixes",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1763,
+      "sections": [
+        {
+          "id": 22724,
+          "sectionId": "4",
+          "name": "Chapter 4 Skeletal System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "4",
+      "name": "Chapter 4 Skeletal System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1764,
+      "sections": [
+        {
+          "id": 22725,
+          "sectionId": "5",
+          "name": "Chapter 5 Muscular System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "5",
+      "name": "Chapter 5 Muscular System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1765,
+      "sections": [
+        {
+          "id": 22726,
+          "sectionId": "6",
+          "name": "Chapter 6 Digestive System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "6",
+      "name": "Chapter 6 Digestive System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1766,
+      "sections": [
+        {
+          "id": 22727,
+          "sectionId": "7",
+          "name": "Chapter 7 Cardiovascular System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "7",
+      "name": "Chapter 7 Cardiovascular System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1767,
+      "sections": [
+        {
+          "id": 22728,
+          "sectionId": "8",
+          "name": "Chapter 8 Respiratory System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "8",
+      "name": "Chapter 8 Respiratory System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1768,
+      "sections": [
+        {
+          "id": 22729,
+          "sectionId": "9",
+          "name": "Chapter 9 Nervous System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "9",
+      "name": "Chapter 9 Nervous System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1770,
+      "sections": [
+        {
+          "id": 22741,
+          "sectionId": "10",
+          "name": "Chapter 10 Endocrine System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "10",
+      "name": "Chapter 10 Endocrine System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1771,
+      "sections": [
+        {
+          "id": 22742,
+          "sectionId": "11",
+          "name": "Chapter 11 Urinary System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "11",
+      "name": "Chapter 11 Urinary System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1772,
+      "sections": [
+        {
+          "id": 22743,
+          "sectionId": "12",
+          "name": "Chapter 12 Lymphatic and Immune System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "12",
+      "name": "Chapter 12 Lymphatic and Immune System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1773,
+      "sections": [
+        {
+          "id": 22744,
+          "sectionId": "13",
+          "name": "Chapter 13 Reproductive System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "13",
+      "name": "Chapter 13 Reproductive System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1774,
+      "sections": [
+        {
+          "id": 22745,
+          "sectionId": "14",
+          "name": "Chapter 14 Integumentary System",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "14",
+      "name": "Chapter 14 Integumentary System",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1775,
+      "sections": [
+        {
+          "id": 22746,
+          "sectionId": "15",
+          "name": "Chapter 15 Special Senses",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "15",
+      "name": "Chapter 15 Special Senses",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1776,
+      "sections": [
+        {
+          "id": 22747,
+          "sectionId": "16",
+          "name": "Chapter 16 Genetics and Genetic Diseases",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "16",
+      "name": "Chapter 16 Genetics and Genetic Diseases",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1777,
+      "sections": [
+        {
+          "id": 22748,
+          "sectionId": "17",
+          "name": "Chapter 17 Oncology",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "17",
+      "name": "Chapter 17 Oncology",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1778,
+      "sections": [
+        {
+          "id": 22749,
+          "sectionId": "18",
+          "name": "Chapter 18 Pharmacology",
+          "catalogShow": true,
+          "section": null
+        }
+      ],
+      "chapterId": "18",
+      "name": "Chapter 18 Pharmacology",
+      "icon": null,
+      "show": false
+    },
+    {
+      "id": 1779,
+      "sections": [
+        {
+          "id": 22750,
+          "name": "封底",
+          "section": null,
+          "url": "52v1.0.0/52_ed/52_d_02/52_d_02.html"
+        }
+      ],
+      "name": "封底",
+      "icon": "https://imed3.imed.org.cn/mvw_imed_book/74bf4238acaef95d/95cf2471c220af3b",
+      "show": false
+    }
+  ]
+}

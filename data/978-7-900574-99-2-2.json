@@ -1,0 +1,335 @@
+{
+  "id": 136,
+  "name": "医学英语（视听说）",
+  "cover": "https://imed3.imed.org.cn/mvw_imed_book/4f191581e72d129e/fc442b02fad726d0",
+  "bookIndex": "54v1.0.1",
+  "chapters": [
+    {
+      "id": 1889,
+      "sections": [
+        {
+          "id": 22910,
+          "sectionId": null,
+          "name": "封面",
+          "url": "54v1.0.1/54_0f/54_f_01/54_f_01.html"
+        },
+        {
+          "id": 22911,
+          "sectionId": null,
+          "name": "扉页",
+          "url": "54v1.0.1/54_0f/54_f_02/54_f_02.html"
+        },
+        {
+          "id": 22912,
+          "sectionId": null,
+          "name": "版权页",
+          "url": "54v1.0.1/54_0f/54_f_03/54_f_03.html"
+        },
+        {
+          "id": 22913,
+          "sectionId": null,
+          "name": "教材总目录",
+          "url": "54v1.0.1/54_0f/54_f_05/54_f_05.html"
+        },
+        {
+          "id": 22914,
+          "sectionId": null,
+          "name": "顾问委员会",
+          "url": "54v1.0.1/54_0f/54_f_06/54_f_06.html"
+        },
+        {
+          "id": 22915,
+          "sectionId": null,
+          "name": "编写委员会",
+          "url": "54v1.0.1/54_0f/54_f_07/54_f_07.html"
+        },
+        {
+          "id": 22916,
+          "sectionId": null,
+          "name": "委员院校单位",
+          "url": "54v1.0.1/54_0f/54_f_08/54_f_08.html"
+        },
+        {
+          "id": 22917,
+          "sectionId": null,
+          "name": "总序-1",
+          "url": "54v1.0.1/54_0f/54_f_09/54_f_09.html"
+        },
+        {
+          "id": 22918,
+          "sectionId": null,
+          "name": "总序-2",
+          "url": "54v1.0.1/54_0f/54_f_10/54_f_10.html"
+        },
+        {
+          "id": 22920,
+          "sectionId": null,
+          "name": "《医学英语-视听说》编写和使用说明",
+          "url": "54v1.0.1/54_0f/54_f_13/54_f_13.html"
+        },
+        {
+          "id": 22919,
+          "sectionId": null,
+          "name": "前    言",
+          "url": "54v1.0.1/54_0f/54_f_14/54_f_14.html"
+        }
+      ],
+      "chapterId": null,
+      "name": "封面",
+      "nameEn": null,
+      "order": null,
+      "pieceId": null,
+      "piece": null,
+      "icon": "https://imed3.imed.org.cn/mvw_imed_book/4f191581e72d129e/54bc7739843f55bc",
+      "show": false
+    },
+    {
+      "id": 1880,
+      "sections": [
+        {
+          "id": 22901,
+          "sectionId": "1",
+          "name": "Chapter 1 Human Body Structures"
+        }
+      ],
+      "chapterId": "1",
+      "name": "Chapter 1 Human Body Structures",
+      "show": false
+    },
+    {
+      "id": 1881,
+      "sections": [
+        {
+          "id": 22902,
+          "sectionId": "2",
+          "name": "Chapter 2 Human Body Functions"
+        }
+      ],
+      "chapterId": "2",
+      "name": "Chapter 2 Human Body Functions",
+      "show": false
+    },
+    {
+      "id": 1882,
+      "sections": [
+        {
+          "id": 22903,
+          "sectionId": "3",
+          "name": "Chapter 3 Mechanisms of Diseases"
+        }
+      ],
+      "chapterId": "3",
+      "name": "Chapter 3 Mechanisms of Diseases",
+      "show": false
+    },
+    {
+      "id": 1883,
+      "sections": [
+        {
+          "id": 22904,
+          "sectionId": "4",
+          "name": "Chapter 4 Skeletal System"
+        }
+      ],
+      "chapterId": "4",
+      "name": "Chapter 4 Skeletal System",
+      "show": false
+    },
+    {
+      "id": 1884,
+      "sections": [
+        {
+          "id": 22905,
+          "sectionId": "5",
+          "name": "Chapter 5 Muscular System"
+        }
+      ],
+      "chapterId": "5",
+      "name": "Chapter 5 Muscular System",
+      "show": false
+    },
+    {
+      "id": 1885,
+      "sections": [
+        {
+          "id": 22906,
+          "sectionId": "6",
+          "name": "Chapter 6 Digestive System"
+        }
+      ],
+      "chapterId": "6",
+      "name": "Chapter 6 Digestive System",
+      "show": false
+    },
+    {
+      "id": 1886,
+      "sections": [
+        {
+          "id": 22907,
+          "sectionId": "7",
+          "name": "Chapter 7 Cardiovascular System"
+        }
+      ],
+      "chapterId": "7",
+      "name": "Chapter 7 Cardiovascular System",
+      "show": false
+    },
+    {
+      "id": 1887,
+      "sections": [
+        {
+          "id": 22908,
+          "sectionId": "8",
+          "name": "Chapter 8 Respiratory System"
+        }
+      ],
+      "chapterId": "8",
+      "name": "Chapter 8 Respiratory System",
+      "show": false
+    },
+    {
+      "id": 1888,
+      "sections": [
+        {
+          "id": 22909,
+          "sectionId": "9",
+          "name": "Chapter 9 Nervous System"
+        }
+      ],
+      "chapterId": "9",
+      "name": "Chapter 9 Nervous System",
+      "show": false
+    },
+    {
+      "id": 1890,
+      "sections": [
+        {
+          "id": 22921,
+          "sectionId": "10",
+          "name": "Chapter 10 Endocrine System"
+        }
+      ],
+      "chapterId": "10",
+      "name": "Chapter 10 Endocrine System",
+      "show": false
+    },
+    {
+      "id": 1891,
+      "sections": [
+        {
+          "id": 22922,
+          "sectionId": "11",
+          "name": "Chapter 11 Urinary System"
+        }
+      ],
+      "chapterId": "11",
+      "name": "Chapter 11 Urinary System",
+      "show": false
+    },
+    {
+      "id": 1892,
+      "sections": [
+        {
+          "id": 22923,
+          "sectionId": "12",
+          "name": "Chapter 12 Lymphatic and Immune System"
+        }
+      ],
+      "chapterId": "12",
+      "name": "Chapter 12 Lymphatic and Immune System",
+      "show": false
+    },
+    {
+      "id": 1893,
+      "sections": [
+        {
+          "id": 22924,
+          "sectionId": "13",
+          "name": "Chapter 13 Reproductive System"
+        }
+      ],
+      "chapterId": "13",
+      "name": "Chapter 13 Reproductive System",
+      "show": false
+    },
+    {
+      "id": 1894,
+      "sections": [
+        {
+          "id": 22925,
+          "sectionId": "14",
+          "name": "Chapter 14 Integumentary System"
+        }
+      ],
+      "chapterId": "14",
+      "name": "Chapter 14 Integumentary System",
+      "show": false
+    },
+    {
+      "id": 1895,
+      "sections": [
+        {
+          "id": 22926,
+          "sectionId": "15",
+          "name": "Chapter 15 Special Senses"
+        }
+      ],
+      "chapterId": "15",
+      "name": "Chapter 15 Special Senses",
+      "show": false
+    },
+    {
+      "id": 1896,
+      "sections": [
+        {
+          "id": 22927,
+          "sectionId": "16",
+          "name": "Chapter 16 Genetics and Genetic Diseases"
+        }
+      ],
+      "chapterId": "16",
+      "name": "Chapter 16 Genetics and Genetic Diseases",
+      "show": false
+    },
+    {
+      "id": 1897,
+      "sections": [
+        {
+          "id": 22928,
+          "sectionId": "17",
+          "name": "Chapter 17 Oncology"
+        }
+      ],
+      "chapterId": "17",
+      "name": "Chapter 17 Oncology",
+      "show": false
+    },
+    {
+      "id": 1898,
+      "sections": [
+        {
+          "id": 22929,
+          "sectionId": "18",
+          "name": "Chapter 18 Pharmacology"
+        }
+      ],
+      "chapterId": "18",
+      "name": "Chapter 18 Pharmacology",
+      "show": false
+    },
+    {
+      "id": 1899,
+      "sections": [
+        {
+          "id": 22930,
+          "sectionId": null,
+          "name": "封底",
+          "url": "54v1.0.1/54_ed/54_d_02/54_d_02.html"
+        }
+      ],
+      "chapterId": null,
+      "name": "封底",
+      "icon": "https://imed3.imed.org.cn/mvw_imed_book/4f191581e72d129e/95cf2471c220af3b"
+    }
+  ]
+}

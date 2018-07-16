@@ -40,7 +40,7 @@
 <style lang="less">
 
     .router-view {
-        position: absolute;
+        /*position: absolute;*/
         left: 0;
         top: 0;
         width: 100%;

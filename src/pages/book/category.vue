@@ -1,76 +1,84 @@
 <template>
-    <div class="header">
-        <ul>
-            <!-- 循环数据在点击调用changeli方法时将当前索引和本条数据传进去,并使用当前数据show的bool值添加或移除样式 -->
-            <li :class="[{active:item.show}]" @click="changeli(index,item)" v-for="(item,index) in headerData">
-                <!-- 在这里打印出boll值方便查看 -->
-                {{item.name}}{{item.show}}
-                <!-- 判断当前这条数据的bool值如果是true就打开二级菜单,如果是false就关闭二级菜单 -->
-                <ul v-show="item.show">
-                    <!-- 循环二级菜单数据并使用.stop阻止冒泡 -->
-                    <li v-for="(a,index) in item.list" v-on:click.stop="doThis(index)">{{a}}</li>
-                </ul>
-            </li>
-        </ul>
+    <div>
+        <header class="imed-bar">
+            <div @click="back">
+                <div>返回</div>
+            </div>
+            <h1 v-text="categoryList.name"></h1>
+            <a class="icon" style="width: 0.8rem">&nbsp;</a>
+        </header>
+        <div class="header">
+            <ul>
+                <li :class="[{active:item.show}]" @click="changeLi(item)" v-for="item in categoryList.chapters">
+                    {{item.name}}
+                    <ul v-show="item.show">
+                        <li v-for="a in item.sections" @click.stop="doThis(a)">
+                            {{a.name}}
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
     </div>
 </template>
 
 <script>
+    import {mapState} from 'vuex'
+    import ImedNav from "../../components/imed-nav"
+
     export default {
         name: "category",
-        data() {
-            return {
-                headerData: [{
-                    name: '导航1',
-                    list: ['子集', '子集', '子集', '子集', '子集'],
-                    show: false
-                }, {
-                    name: '导航2',
-                    list: ['子集', '子集', '子集', '子集', '子集'],
-                    show: false
-                }, {
-                    name: '导航3',
-                    list: ['子集', '子集', '子集', '子集', '子集'],
-                    show: false
-                }, {
-                    name: '导航4',
-                    list: ['子集', '子集', '子集', '子集', '子集'],
-                    show: false
-                }, {
-                    name: '导航5',
-                    list: ['子集', '子集', '子集', '子集', '子集'],
-                    show: false
-                }]
-            }
+        components: {ImedNav},
+        created() {
+            // console.log(this.$route.params)
+            let {isbn} = this.$route.params
+            // console.log(isbn)
+            // alert(isbn)
+            this.$store.dispatch('categoryList', {isbn})
+        },
+        computed: {
+            ...mapState({
+                categoryList: state => state.category.categoryList
+            }),
         },
         methods: {
-            changeli(ind, item) {
-                // 先循环数据中的show将其全部置为false,此时模板里的v-if判断生效关闭全部二级菜单,并移除样式
-                this.headerData.forEach(i => {
-                    // 判断如果数据中的headerData[i]的show属性不等于当前数据的show属性那么headerData[i]等于false
-                    if (i.show !== this.headerData[ind].show) {
-                        i.show = false;
-                    }
-                });
-                // 取反(true或false)
-                item.show = !item.show;
-                console.log(item.name)
+            back() {
+                WebCallApp("CmdGoBack")
             },
-            doThis(index) {
-                alert(index)
+            changeLi(item) {
+                this.categoryList.chapters.filter(i => i !== item).forEach(i => i.show = false)
+                item.show = !item.show
+                console.log(item.name)
+                console.log(item)
+            },
+            doThis(a) {
+                this.$router.push({
+                    path: `/english/1/category/${a.id}`,
+                    query: {
+                        name: a.name,
+                        sectionId: a.sectionId,
+                        bookIndex: this.categoryList.bookIndex,
+                        url: a.url
+                    }
+                })
             }
         }
     }
 </script>
 
 <style scoped lang="less">
+    ul {
+        padding: 0;
+        > li {
+            list-style: none;
+        }
+    }
+
     .header {
-        width: 20%;
         background-color: #ff5722;
         color: #ffffff;
         > ul {
             width: 100%;
-        @include clearfix;
             > li {
                 width: 100%;
                 border: 1px solid #ffffff;

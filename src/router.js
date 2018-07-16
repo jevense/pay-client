@@ -13,6 +13,7 @@ import ExamCourseList from './pages/exam/exam-course-list'
 import ExamExamination from './pages/exam/exam-examination'
 import Reader from './pages/reader/reader'
 import Category from './pages/book/category'
+import BookView from './pages/reader/book-view'
 
 Vue.use(VueRouter)
 
@@ -29,9 +30,9 @@ const routes = [
     {path: '/exam/:eid/course', component: ExamCourse},
     {path: '/exam/:eid/course/:cid', component: ExamCourseList},
     {path: '/exam/:eid/examination', component: ExamExamination},
-    {path: '/exam/:eid/pdf/:cid', component: ExamPDFCategory},
     {path: '/exam/:eid/pdf/:cid/item/:iid', component: Reader},
-    {path: '/test', component: Category},
+    {path: '/english/:isbn/category', component: Category, name: "category"},
+    {path: '/english/:isbn/category/:cid', component: BookView},
 ]
 
 export default new VueRouter({

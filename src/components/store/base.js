@@ -1,10 +1,7 @@
-import Vue from 'vue'
-import Vuex from 'vuex'
-import getQueryString from './common'
+import getQueryString from "../common"
+import Vue from "vue"
 
-Vue.use(Vuex)
-
-export default new Vuex.Store({
+export const base = {
     state: {
         config: {
             busUrl: 'http://developer.mvwchina.com:8080/bus/services',
@@ -20,8 +17,6 @@ export default new Vuex.Store({
             list: [],
         },
         video: "",
-        pdf: {},
-        pdfDetail: {},
         downloadList: [],
         price: 0,
         payOrder: {},
@@ -232,4 +227,4 @@ export default new Vuex.Store({
                 })
         },
     }
-})
+}

@@ -1,7 +1,7 @@
 <template>
     <main>
         <header class="imed-bar">
-            <a class="icon icon-left" @click="back"></a>
+            <a @click="back">返回</a>
             <h1 v-text="title"></h1>
             <a v-if="rightText" class="icon" v-text="state?'分类':'确定'" @click="showMask"></a>
             <a v-else-if="status" class="icon icon-search"></a>
